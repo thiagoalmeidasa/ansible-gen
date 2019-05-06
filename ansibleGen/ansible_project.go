@@ -106,22 +106,41 @@ func getProjectTreeTemplate(projectName string) Folder {
 ---
 name: ` + projectName + `
 files:
-- name: production
-- name: staging
-- name: main.yml
-- name: dev.ini
-- name: staging.ini
-- name: production.ini
+- name: ansible.cfg
 folders:
-- name: group_vars
-  files:
-  - name: group1
-  - name: group2
+- name: playbooks
+- name: inventories
   folders:
-- name: hosts_vars
-  files:
-  - name: hostname1
-  - name: hostname2
+  - name: dev
+    folders:
+    - name: group_vars
+      files:
+      - name: group1
+      - name: group2
+    - name: host_vars
+      files:
+      - name: host1
+      - name: host2
+  - name: production
+    folders:
+    - name: group_vars
+      files:
+      - name: group1
+      - name: group2
+    - name: host_vars
+      files:
+      - name: host1
+      - name: host2
+  - name: staging
+    folders:
+    - name: group_vars
+      files:
+      - name: group1
+      - name: group2
+    - name: host_vars
+      files:
+      - name: host1
+      - name: host2
 - name: roles
 `
 
