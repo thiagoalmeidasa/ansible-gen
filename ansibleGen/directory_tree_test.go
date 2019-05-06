@@ -13,8 +13,8 @@ func Test_WriteTreeToDiskOnProject(t *testing.T) {
 	if _, err := baseFs.Stat("/tmp/my_test_name/roles/crole1"); err != nil {
 		t.Errorf("Expected 'roles/crole1' to be present in filesystem structure")
 	}
-	if _, err := baseFs.Stat("/tmp/my_test_name/production"); err != nil {
-		t.Errorf("Expected '/tmp/my_test_name/production' file to be present in filesystem structure")
+	if _, err := baseFs.Stat("/tmp/my_test_name/inventories"); err != nil {
+		t.Errorf("Expected '/tmp/my_test_name/inventories' file to be present in filesystem structure")
 	}
 }
 

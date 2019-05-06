@@ -106,7 +106,7 @@ func Test_getProjectTreeTemplate(t *testing.T) {
 	if tree.Name != projectName {
 		t.Errorf("The tree structure does not have the project name")
 	}
-	if tree.Folders[0].Name != "group_vars" {
+	if tree.Folders[0].Name != "playbooks" {
 		t.Error("The tree structure is not correct")
 	}
 }
