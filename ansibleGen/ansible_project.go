@@ -115,32 +115,32 @@ folders:
     folders:
     - name: group_vars
       files:
-      - name: group1
-      - name: group2
+      - name: group1.yml
+      - name: group2.yml
     - name: host_vars
       files:
-      - name: host1
-      - name: host2
+      - name: host1.yml
+      - name: host2.yml
   - name: production
     folders:
     - name: group_vars
       files:
-      - name: group1
-      - name: group2
+      - name: group1.yml
+      - name: group2.yml
     - name: host_vars
       files:
-      - name: host1
-      - name: host2
+      - name: host1.yml
+      - name: host2.yml
   - name: staging
     folders:
     - name: group_vars
       files:
-      - name: group1
-      - name: group2
+      - name: group1.yml
+      - name: group2.yml
     - name: host_vars
       files:
-      - name: host1
-      - name: host2
+      - name: host1.yml
+      - name: host2.yml
 - name: roles
 `
 
