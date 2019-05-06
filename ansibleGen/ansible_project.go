@@ -109,16 +109,16 @@ files:
 - name: production
 - name: staging
 - name: main.yml
-- dev.ini
-- staging.ini
-- production.ini
+- name: dev.ini
+- name: staging.ini
+- name: production.ini
 folders:
 - name: group_vars
   files:
   - name: group1
   - name: group2
   folders:
-- name: hosts_vars 
+- name: hosts_vars
   files:
   - name: hostname1
   - name: hostname2

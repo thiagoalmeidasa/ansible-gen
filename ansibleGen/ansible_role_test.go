@@ -22,7 +22,7 @@ func Test_NewAnsibleRole(t *testing.T) {
 
 func Test_AnsibleRoleHasName(t *testing.T) {
 	role := testRole()
-	if got := role.name; got != roleName {
+	if got := role.Name; got != roleName {
 		t.Errorf("Role doesn't have expected name, wanted %s, got %s", roleName, got)
 	}
 }

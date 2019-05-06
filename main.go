@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/eljuanchosf/ansible-gen/ansibleGen"
+	"github.com/thiagoalmeidasa/ansible-gen/ansibleGen"
 	"github.com/urfave/cli"
 )
 

@@ -1,18 +1,18 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/eljuanchosf/ansible-gen)](https://goreportcard.com/report/github.com/eljuanchosf/ansible-gen)
-[![codebeat badge](https://codebeat.co/badges/ffe93ea7-4a4d-47ba-9e63-d248b491b1b1)](https://codebeat.co/projects/github-com-eljuanchosf-ansible-gen)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thiagoalmeidasa/ansible-gen)](https://goreportcard.com/report/github.com/thiagoalmeidasa/ansible-gen)
+[![codebeat badge](https://codebeat.co/badges/ffe93ea7-4a4d-47ba-9e63-d248b491b1b1)](https://codebeat.co/projects/github-com-thiagoalmeidasa-ansible-gen)
 # ansible-gen
 
 A simple tool to scaffold Ansible projects according to the best practices described in the [Ansible documentation](http://docs.ansible.com/ansible/playbooks_best_practices.html).
 
 ## Important!
 
-If you use it, wherther you like it or not, please drop me a line in Twitter (@eljuanchosf) so I know that this thing is being useful. :)
+If you use it, wherther you like it or not, please drop me a line in Twitter (@thiagoalmeidasa) so I know that this thing is being useful. :)
 
 ## Installation
 
 ### Download release
 
-You can download the latest release from [here](https://github.com/eljuanchosf/ansible-gen/releases).
+You can download the latest release from [here](https://github.com/thiagoalmeidasa/ansible-gen/releases).
 
 ### From source
 
